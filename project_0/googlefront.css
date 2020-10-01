@@ -1,0 +1,42 @@
+body{
+	font-family: arial,sans-serif;
+}
+
+nav{
+	text-align: right;
+}  
+
+nav a {
+	text-decoration: none;
+}
+
+div, form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+
+input{
+	border-style: solid;
+}
+
+#inputquery {
+	border-radius: 20px;
+	border-color: lightgray;
+	padding: 10px;
+	min-width: 200px;
+	width: 50vw;
+}
+
+.button {
+	border: hidden;
+	background-color: white;
+	padding: 10px;
+	color: #5F6368;
+}
+
+.button:hover{
+	border: 1px solid lightgray;
+	border-radius: 4px;
+}
