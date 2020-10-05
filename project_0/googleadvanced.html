@@ -1,1 +1,26 @@
-  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+		<link rel="stylesheet" href="googleadvanced.css">
+    </head>
+    <body>
+		<nav>
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+			<a href="googlefront.html" target="_self">Google Search</a>
+		</nav>
+		<div class="main">
+			<h3 id="header">Advanced Search</h3>
+			<hr>
+        <form action="https://google.com/search">
+			<span>Find pages with...</span>
+            <section><label> all these words: </label><input id="input-all" type="text" name="q"></section> 
+			<section><label>this exact word or phrase: </label><input id="input-exact" type="text" name="as_epq"></section> 
+			<section><label>any of these words: </label><input id="input-any" type="text" name="as_oq"></section> 
+			<section><label>none of these words: </label><input id="input-none" type="text" name="as_eq"></section> 
+
+            <input class="button" id="advanced-search-button" type="submit" value="Advanced Search">
+        </form>
+		</div>
+    </body>
+</html>    
